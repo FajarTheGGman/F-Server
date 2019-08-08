@@ -1,8 +1,8 @@
 # F-Server
 
-(https://img.shields.io/badge/Version-1.0-lime) (https://img.shields.io/badge/Copyright%C2%A9-2019-red)
+![alt-text](https://img.shields.io/badge/Version-1.0-lime) ![alt-text](https://img.shields.io/badge/Copyright%C2%A9-2019-red)
 
-![alt-text](https://raw.githubusercontent.com/FajarTheGGman/F-Tools/F-Server/.img/cover.PNG)
+![alt-text](https://github.com/FajarTheGGman/F-Server/blob/master/.img/cover.PNG)
 
 # How To Install ?
 
