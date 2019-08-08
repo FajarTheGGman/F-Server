@@ -9,7 +9,7 @@
 # Windows
 
 <pre>
-1.> Download Nodejs in : [![Nodejs](https://img.shields.io/badge/Node-js-green)(https://nodejs.org/dist/v10.16.2/node-v10.16.2-x64.msi)]
+1.> Download Nodejs in this link : https://nodejs.org/dist/v10.16.2/node-v10.16.2-x64.msi
 2.> klick file install-windows.bat
 Done
 </pre>
