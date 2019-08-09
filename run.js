@@ -1,3 +1,8 @@
+// Copyright© 2019 By Fajar Firdaus
+// Please Don't Recode My Program Because i Take a long time to complete this project
+
+
+// Some Packages
 var fs = require('fs');
 var x = require("express")()
 var load = require("ora")
@@ -6,6 +11,8 @@ var bx = require("boxen")
 var style = require("chalk")
 
 // Default Argument
+
+// Create Connection Between Server And Script
 x.get("/", (req,res) => {
     fs.createReadStream(__dirname + "/default/default.html").pipe(res)
 })
@@ -28,12 +35,16 @@ x.get("/git_icon", (req,res) => {
     fs.createReadStream(__dirname + "/icon/git.png").pipe(res)
 })
 
+
+// Read Files in htdocs folder and send it to server 
 fs.readdir(__dirname + "/htdocs", (err, files) => {
   files.forEach(file => {
       x.get("/" + file, (req,res) => {
           fs.createReadStream(__dirname + "/htdocs/" + file).pipe(res)
       })
   });
+    
+   // Start The Server at port 8080
   var port = 8080
   x.listen(port, () => {
     console.log(style.green("  ,_,     [F-Server]     |"))
