@@ -35,3 +35,6 @@ Just Type node run.js
 </pre>
 
 Report Error To My Social Media
+
+# Support Me :)
+![donate](https://raw.githubusercontent.com/FajarTheGGman/F-Tools/master/.images/donate.jpeg)
